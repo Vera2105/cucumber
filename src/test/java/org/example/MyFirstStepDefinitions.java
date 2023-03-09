@@ -136,6 +136,7 @@ public class MyFirstStepDefinitions {
         String total = orderSummary.get("Total");
         String totalActualResult = paymentPage.checkDataOfTotalOnPaymentPage();
         Assertions.assertEquals(total, totalActualResult);
+        basePageInit.tearDown();
     }
 
 }
