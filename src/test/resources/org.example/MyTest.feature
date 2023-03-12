@@ -27,11 +27,20 @@ Feature: Desktop Checkout for Guest User
     And I am redirected to a basket page with name "Basket page"
     And Basket order summary is as following:
       | Delivery cost | FREE    |
-      | Total         | 85,31 € |
+      | Total         | 85,38 € |
     And I click 'Checkout' button on Basket page
     And I checkout as a new customer with email "TestForAutomation.777@gmail.com"
+    And I checkout as a new customer with of country "Andorra" phone number "+376""345-123"
     And Checkout order summary is as following:
-      | Sub-total        | 85,31 € |
+      | Sub-total        | 85,38 € |
       | Delivery country | FREE    |
       | VAT              | 0,00 €  |
-      | Total            | 85,31 € |
+      | Total            | 85,38 € |
+    And I fill delivery address information manually:
+      | Full name        | Olha Baht        |
+      | Delivery country | Andorra          |
+      | Address line 1   | San Jose str.    |
+      | Address line 2   | app.12           |
+      | Town/City        | Andorra la Vieja |
+      | Country/State    | Andorra          |
+      | Postcode         | AD500            |

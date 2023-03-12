@@ -1,5 +1,6 @@
 package org.example;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import org.example.pages.*;
 import org.junit.jupiter.api.Assertions;
@@ -121,6 +122,11 @@ public class MyFirstStepDefinitions {
     public void i_checkout_as_a_new_customer_with_email(String email) {
         paymentPage.setEmail(email);
     }
+    @And("I checkout as a new customer with of country {string} phone number {string}{string}")
+    public void iCheckoutAsANewCustomerWithPhoneNumber(String country, String code, String number) {
+        paymentPage.setPhoneCode(country+" "+code);
+        paymentPage.setPhoneNumber(number);
+    }
 
     @Given("Checkout order summary is as following:")
     public void checkout_order_summary_is_as_following(Map<String,String> orderSummary) {
@@ -136,7 +142,24 @@ public class MyFirstStepDefinitions {
         String total = orderSummary.get("Total");
         String totalActualResult = paymentPage.checkDataOfTotalOnPaymentPage();
         Assertions.assertEquals(total, totalActualResult);
-        basePageInit.tearDown();
     }
 
+    @And("I fill delivery address information manually:")
+    public void iFillDeliveryAddressInformationManually(Map<String,String> delivAddress) {
+        String fullAddress = delivAddress.get("Full name");
+        paymentPage.setFullNameDeliveryAddress(fullAddress);
+        String country = delivAddress.get("Delivery country");
+        paymentPage.setDeliveryCountry(country);
+        String addressLine1 = delivAddress.get("Address line 1");
+        paymentPage.setAddressLine1(addressLine1);
+        String addressLine2 = delivAddress.get("Address line 2");
+        paymentPage.setAddressLine2(addressLine2);
+        String cityTown = delivAddress.get("Town/City");
+        paymentPage.setTownCity(cityTown);
+        String countryState = delivAddress.get("Country/State");
+        paymentPage.setCountyState(countryState);
+        String postCode = delivAddress.get("Postcode");
+        paymentPage.setPostcode(postCode);
+        basePageInit.tearDown();
+    }
 }

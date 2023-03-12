@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7888b2f-ec40-4924-85ab-b944c5fd8b51" name="Changes" comment="First commit">
+    <list default="true" id="b7888b2f-ec40-4924-85ab-b944c5fd8b51" name="Changes" comment="Add close brouser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/PaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyFirstStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyFirstStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/BasePageInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/BasePageInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/MyTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/MyTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/vira-automation/cucumber/src/main/resources",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/vira-automation/cucumber/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.pages" />
@@ -64,6 +68,7 @@
       <recent name="E:\vira-automation\cucumber\src\main\java\org\example\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\vira-automation\cucumber\src\main\resources\drivers" />
       <recent name="E:\vira-automation\cucumber\src\test\resources\org.example" />
       <recent name="E:\vira-automation\cucumber\src\test\java\org\example" />
     </key>
@@ -121,7 +126,12 @@
       <workItem from="1677939620050" duration="310000" />
       <workItem from="1677939939389" duration="1849000" />
       <workItem from="1678047811791" duration="5050000" />
-      <workItem from="1678126859520" duration="39664000" />
+      <workItem from="1678126859520" duration="40202000" />
+      <workItem from="1678380175012" duration="2692000" />
+      <workItem from="1678384297869" duration="1518000" />
+      <workItem from="1678432332530" duration="2082000" />
+      <workItem from="1678564578427" duration="10682000" />
+      <workItem from="1678611208644" duration="7290000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1677940176696</created>
@@ -130,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677940176696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add feature file and methods">
+      <created>1678347684255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678347684255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add close brouser">
+      <created>1678347912638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678347912638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Add feature file and methods" />
+    <MESSAGE value="Add close brouser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add close brouser" />
   </component>
 </project>
