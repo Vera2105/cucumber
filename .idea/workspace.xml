@@ -4,20 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7888b2f-ec40-4924-85ab-b944c5fd8b51" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b7888b2f-ec40-4924-85ab-b944c5fd8b51" name="Changes" comment="Add close brouser">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pages/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pages/PaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyFirstStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyFirstStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/BasePageInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/BasePageInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/MyTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/MyTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2MYLXsuECoRUUypZuD3xa62v44r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,10 +52,31 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/vira-automation/cucumber/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vira-automation\cucumber\src\main\resources" />
+      <recent name="E:\vira-automation\cucumber\src\main\java\org\example\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\vira-automation\cucumber\src\main\resources\drivers" />
+      <recent name="E:\vira-automation\cucumber\src\test\resources\org.example" />
+      <recent name="E:\vira-automation\cucumber\src\test\java\org\example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyFirstTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="cucumber" />
@@ -46,8 +90,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MyFirstTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyFirstTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -61,7 +124,37 @@
       <option name="presentableId" value="Default" />
       <updated>1677939618077</updated>
       <workItem from="1677939620050" duration="310000" />
+      <workItem from="1677939939389" duration="1849000" />
+      <workItem from="1678047811791" duration="5050000" />
+      <workItem from="1678126859520" duration="40202000" />
+      <workItem from="1678380175012" duration="2692000" />
+      <workItem from="1678384297869" duration="1518000" />
+      <workItem from="1678432332530" duration="2082000" />
+      <workItem from="1678564578427" duration="10682000" />
+      <workItem from="1678611208644" duration="7290000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1677940176696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677940176696</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add feature file and methods">
+      <created>1678347684255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678347684255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add close brouser">
+      <created>1678347912638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678347912638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +170,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Add feature file and methods" />
+    <MESSAGE value="Add close brouser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add close brouser" />
   </component>
 </project>
